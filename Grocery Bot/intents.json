@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": ["What is the process for buying items on your website?"],
+      "responses": [
+        "Our website allows you to purchase souvenirs online.Simply select the quantity you wish to purchase, complete the payment process, and we will deliver the souvenir to you."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "Pricing",
+      "patterns": [
+        "What is the price of 1 kg paneer ",
+        "Do you give discount of 50 rs after purchasing 1 kg butter ",
+        "What is the price of 500 ml buffalo milk ",
+        "What is the price of veggies supplied from Kalyan market",
+        "How much do the organic Oranges from The Family farm cost "
+      ],
+      "responses": [
+        "All you need to do is just go to the Produc details section You will get all the information"
+      ]
+    }
+  ]
+}
